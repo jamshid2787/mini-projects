@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-2 px-4 text-white bg-black dark:bg-white rounded text-2xl dark:text-black active:scale-95 disabled:bg-slate-300 disabled:cursor-no-drop;
+  }
+  .text {
+    @apply text-black dark:text-white;
+  }
+  .new-game {
+    @apply w-full grid items-center justify-center;
+  }
+  .forma-new {
+    @apply grid items-center justify-center  p-4 gap-2;
+  }
+  label {
+    @apply w-80 flex justify-between text-black dark:text-white;
+  }
+  input {
+    @apply text-black;
+  }
+  a {
+    @apply text-black dark:text-white underline;
+  }
+}

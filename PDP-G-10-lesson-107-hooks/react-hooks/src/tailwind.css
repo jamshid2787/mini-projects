@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply text-white bg-pink-500 p-2 max-w-max rounded hover:bg-opacity-90 cursor-pointer active:scale-95 select-none;
+  }
+}

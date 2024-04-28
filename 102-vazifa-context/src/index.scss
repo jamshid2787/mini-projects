@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 50px 0px 50px;
+}
+.navbar {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	p {
+		color: #b5b5c3;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 21px;
+	}
+}
+.nav-btn {
+	display: flex;
+	gap: 5px;
+	button {
+		color: #fff;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+}
